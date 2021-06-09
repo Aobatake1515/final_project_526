@@ -200,7 +200,7 @@ public class PlayerMB : MonoBehaviour
     }
 }
 
-
+#if UNITY_EDITOR
 [CustomEditor(typeof(PlayerMB))]
 public class PlayerMB_Editor : Editor
 {
@@ -226,3 +226,4 @@ public class PlayerMB_Editor : Editor
         }
     }
 }
+#endif
